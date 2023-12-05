@@ -1,0 +1,19 @@
+Atributos Estáticos: O atributo isOpen da classe Door é estático, o que significa que é compartilhado entre todas as instâncias da classe.
+
+Métodos Estáticos: O método isDoorOpen é um método estático que pode ser chamado sem criar uma instância da classe.
+
+Métodos Destrutores: A classe SmartLock possui um destrutor (~SmartLock()), que é chamado automaticamente quando um objeto é destruído.
+
+Interfaces ou Classes Puramente Virtuais: A classe Lockable é uma interface puramente virtual, pois contém apenas métodos virtuais puros sem implementação.
+
+Classes Abstratas ou Classes Virtuais: A classe Door é uma classe abstrata que contém métodos virtuais puros, obrigando as classes derivadas a implementá-los.
+
+Identificou e Codificou Classes de Dados: Door e Lockable são classes que representam dados (atributos e estados) e não possuem lógica de comportamento.
+
+Identificou e Codificou Classes de Comportamento: SmartLock é uma classe que possui lógica de comportamento para trancar, destrancar, abrir e fechar a porta.
+
+Usou Polimorfismo: A classe SmartLock herda de duas classes (Door e Lockable) e implementa métodos polimórficos, como lock, unlock, open, e close.
+
+Codificou Testes Unitários: A classe TestSmartLock contém métodos de teste que verificam o comportamento esperado da classe SmartLock.
+
+Codificou Padrões de Projeto: Neste exemplo, um padrão de projeto não foi explicitamente codificado, pois o foco estava em abordar os conceitos mencionados. Padrões de projeto específicos podem ser incorporados dependendo dos requisitos do projeto.
